@@ -11,9 +11,31 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+~~~
 
-Add code Here
+def result(a, b):
+    
+    modulo_val = a % b
+    
+    
+    print(modulo_val)
 
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+result(num1, num2)
+~~~
 ## Output
+Enter first number: 10
 
+
+Enter second number: 3
+
+
+1
 ## Result
+The program demonstrates how to encapsulate logic within a user-defined function.
+
+By passing arguments to the result() function, we make the code reusable.
+
+The % operator effectively returns the remainder of the division between the two integers provided.
